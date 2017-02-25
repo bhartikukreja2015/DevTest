@@ -51,8 +51,8 @@ public static String getRadius(int[] input1)
             double r = V / (S / 3);
            
             DecimalFormat f = new DecimalFormat("#0.0000");
-            System.out.println(f.format(r));
-           
+          
+            String finalres=f.format(r).toString();
             return finalres;
             
         }
